@@ -1,38 +1,130 @@
-.App {
+* {
+	box-sizing: border-box;
+	position: relative;
+}
+
+.form{
+  background-color: blueviolet;
+  height:600px;
+  color:white;
   text-align: center;
+  font-weight: bold;
+  font-style: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.heading{
+  font-size: 20px;;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ul{
+  list-style: none;
+  text-align: left;
+  margin-left: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.userForm{
+  margin-top:30px;
+  height:300px;
 }
 
-.App-link {
-  color: #61dafb;
+.success{
+  text-align: center;
+  margin-top:200px;
+  font-weight:bold;
+  font-size: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.userForm1{
+  margin-top:30px;
+  height:450px;
+}
+
+.inputLabel{
+  margin-top:40px;
+}
+
+.inputLabel li{
+  margin-top:40px;
+}
+
+.inputText{
+  margin-top:40px;
+}
+
+.inputText input{
+  margin-top:35px;
+  width:250px;
+  height:30px;
+}
+
+.inputText li{
+  margin-top:40px;
+  width:200px;
+  text-align:left;
+  
+}
+
+.contBtn{
+  margin-top:50px;
+  background-color: black;
+  color:white;
+  width:40px;
+  height:40px;
+  border:none;
+  margin-left:18px;
+  margin-right:15px;
+
+}
+
+[class*="grid-"] {
+	float: left;
+	padding: 5px;
+	position: relative;
+	 }
+
+.grid-12 {
+	width: 100%
+}
+
+.grid-11 {
+	width: 91.66666667%
+}
+
+.grid-10 {
+	width: 83.33333333%
+}
+
+.grid-9 {
+	width: 75%
+}
+
+.grid-8 {
+	width: 66.66666667%
+}
+
+.grid-7 {
+	width: 58.33333333%
+}
+
+.grid-6 {
+	width: 50%
+}
+
+.grid-5 {
+	width: 41.66666667%
+}
+
+.grid-4 {
+	width: 33.33333333%
+}
+
+.grid-3 {
+	width: 25%
+}
+
+.grid-2 {
+	width: 16.66666667%
+}
+.grid-1 {
+	width: 8.33333333%
 }
